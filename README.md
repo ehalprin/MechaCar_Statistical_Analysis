@@ -4,10 +4,6 @@
 
 Performing a linear regression on the Mecha Car data revealed that vehicle length and ground clearance, as well as the intercept, provided a non-random amount of variance to the MPG values in the dataset. The slope of the linear model is not considered to be zero, because there is correlation between at least two of the independent variables (vehicle length and ground clearance) and the dependent variable (MPG). This linear model somewhat effectively predicts the mpg of MechaCar prototypes. The r-squared value is 0.72 with a significant p-value, which means that this model explains 72% of the variability of the dependent value (MPG). However, the significance of the intercept suggests that the independent variables may need to be scaled or transformed to better explain the variability of MPG, and the many non-significant variables (vehicle weight, spoiler angle, and AWD) may suggest overfitting. 
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
 ![Linear Regression Output](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/Linear_Regression_to_Predict_MPG.png)
 
 ## Summary Statistics on Suspension Coils
@@ -33,3 +29,21 @@ However, in looking at each manufacturing lot individually, some differences did
 ![Lot 2 T-Test](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/Lot2_T-Test.png)
 
 ![Lot 3 T-Test](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/Lot3_T-Test.png)
+
+## Study Design: MechaCar vs Competition
+
+### Study Metrics
+
+As the effects of climate change are becoming more and more pressing, more consumers are interested in increasing their carbon footprint by driving a hybrid car with a better fuel efficiency. To ensure that MechaCar is staying competetive, I will compare the fuel efficiency of MechaCars hybrid vehicles to the fuel efficiency of its closest competitors's hybrid vehicles.
+
+### Hypotheses
+
+The null hypothesis of this study is that the average fuel efficiency of MechaCars hybrid vehicles does not significantly differ from its competitors. The alternative hypothesis is that MechaCars hybrid vehicles are significantly different than its competitors. 
+
+### Statistical Tests
+
+I will perform three two-sample t-Test, comparing MechaCars hybrid vehicles' fuel effiency to each of its three closest competitors. I will use the two-sample t-test because I have two dichotomous samples of continuous data (fuel efficiency) that I would like to compare to determine if there is a significant difference between the two. 
+
+### Data Needed
+
+To run this test, I will need information on hybrid vehicle fuel efficiency from various MechaCars vehicles, as well as the same information from its three closest competitors.
