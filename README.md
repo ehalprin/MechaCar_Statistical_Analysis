@@ -19,3 +19,17 @@ As demonstrated in the summary statistics of all manufacturing lots, the varianc
 However, when looking at the three lots separately, the summary statistics show that though Lot 1 and Lot 2 have very low variance (less than 10 PSI), Lot 3 has very high variance, at 170.3 PSI. This exceeds the design specifications.
 
 ![Lot Summary](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.png)
+
+ ## T-Tests on Suspension Coils
+
+A one-sample t-test showed that the mean PSI of all manufacturing lots together was not significantly different from the population mean (1500 PSI).
+
+![One-Sample T-Test](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/One-Sample_T-Test.png)
+
+However, in looking at each manufacturing lot individually, some differences did arise. For example, though Lot 1 and Lot 2 also did not have a mean PSI that differed signficantly from the population mean, with p-values of 1 and 0.6 respectively, the mean PSI of Lot 3 was significantly different, with a mean of 1496.14 and a p-value of 0.04.
+
+![Lot 1 T-Test](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/Lot1_T-Test.png)
+
+![Lot 2 T-Test](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/Lot2_T-Test.png)
+
+![Lot 3 T-Test](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/Lot3_T-Test.png)
