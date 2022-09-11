@@ -9,3 +9,13 @@ Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 ![Linear Regression Output](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/Linear_Regression_to_Predict_MPG.png)
+
+## Summary Statistics on Suspension Coils
+
+As demonstrated in the summary statistics of all manufacturing lots, the variance of suspension coils does not exceed 100 pounds per square inch -- the variance is only 62.3 PSI. 
+
+![Total Summary](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/Total_Summary.png)
+
+However, when looking at the three lots separately, the summary statistics show that though Lot 1 and Lot 2 have very low variance (less than 10 PSI), Lot 3 has very high variance, at 170.3 PSI. This exceeds the design specifications.
+
+![Lot Summary](https://github.com/ehalprin/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.png)
